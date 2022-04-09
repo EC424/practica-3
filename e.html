@@ -1,9 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>constructores en Javascript</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="e.css">
+	<script  type="text/javascript" defer="">
+		var constructor=function(){
+			var obj={
+				nombre:'eduardo',
+				edad:30,
+				mostrarnombre:function(){
+					alert(this.nombre);
+				},
+				cambiarnombre:function(nobrenuevo){
+					this.nombre=nombrenuevo; 
+				},
+			};
+			return obj;
+		};
+		var n=constructor();
+		n.mostrarnombre();
+		
+	</script>
 </head>
 <body>
-
+   <header>
+   	<div>
+   		<h1>TITULO DE LA PAGINA WEB</h1>
+   	</div>
+   </header>
+   <nav>
+   	<ul>
+   		<li><a href="">enlace 1</a></li>
+   		<li><a href="">enlace 2</a></li>
+   		<li><a href="">enlace 3</a></li>
+   		<li><a href="">enlace 4</a></li>
+   	</ul>
+   </nav>
+   <main>
+   	 <section>
+   	 	<article>
+   	 		<time datetime="28-12-22" pubdate>
+   	 			<div id="nombredia">miercoles</div>
+   	 			<div id="numero dia">13</div>
+   	 		</time>
+   	 	</article>
+   	 </section>
+   </main>
+   <footer>
+   	 <address>
+   	 	<!--aaddress define al direccion del creador de la pagina web o de la empresa , tambien puede contener el nuemro de la empresa o del mismo-->
+   	 </address>
+   	 <small>
+   	 	<!--contiene los derechos de autor de la pagina wweb-->
+   	 	&copy derechos de autor reservados a Mangaka4.3
+   	 </small>
+   </footer>
 </body>
-</html>
+</html>	 
+   
+>>>>>>> hotfix
