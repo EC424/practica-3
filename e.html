@@ -4,10 +4,30 @@
 	<title>constructores en Javascript</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="e.css">
+	<script  type="text/javascript" defer="">
+		var constructor=function(){
+			var obj={
+				nombre:'eduardo',
+				edad:30,
+				mostrarnombre:function(){
+					alert(this.nombre);
+				},
+				cambiarnombre:function(nobrenuevo){
+					this.nombre=nombrenuevo; 
+				},
+			};
+			return obj;
+		};
+		var n=constructor();
+		n.mostrarnombre();
+		
+	</script>
 </head>
 <body>
    <header>
-   	 <h1>TITULO DE LA PAGINA WEB</h1>
+   	<div>
+   		<h1>TITULO DE LA PAGINA WEB</h1>
+   	</div>
    </header>
    <nav>
    	<ul>
@@ -37,4 +57,5 @@
    	 </small>
    </footer>
 </body>
-</html>
+</html>	 
+   
