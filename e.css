@@ -1,0 +1,11 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#caja1{
+   height:400px;
+   width:400px;
+   background:-webkit-linear-gradient(30deg,#C736E1,#32D6EE,#E9F522);
+   box-sizing:border-box;
+}
