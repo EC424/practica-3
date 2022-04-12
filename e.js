@@ -1,2 +1,11 @@
-let num1=32;
-let num2=12;
+var constructor=function(){
+	var objeto={
+	  nombre:'eduardo',
+	  edad:30,
+	  mostrarnombre:function(){
+	  	alert(this.nombre+'tiene'+this['edad']);
+	  },
+	};
+	return objeto;
+};
+constructor().mostrarnombre();
